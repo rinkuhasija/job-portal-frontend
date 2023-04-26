@@ -1,0 +1,108 @@
+.registerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer {
+    margin: auto auto;
+    margin-top: 26vh;
+}
+
+#heading {
+    margin-left: -4.5rem;
+    width: 501px;
+    height: 58px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #000000;
+
+}
+
+p:nth-child(2),
+p {
+    margin-left: -2rem;
+    width: 307px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #525252;
+}
+
+#email,
+#password,
+#name,
+#mobile {
+    margin: 6px;
+    margin-left: -0.3rem;
+    width: 400px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 10px;
+    color: #525252;
+}
+
+#label {
+    margin-left: 5px;
+    width: 563px;
+    height: 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 139.69%;
+    color: #525252;
+}
+
+#checkbox {
+    margin-left: -3px;
+}
+
+button {
+    margin-left: -5px;
+    width: 155px;
+    height: 39px;
+    background: #ED5353;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button>span {
+    width: 88px;
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a {
+    width: 75px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 144.02%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+

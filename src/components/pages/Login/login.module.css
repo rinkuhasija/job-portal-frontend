@@ -1,0 +1,14 @@
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div:nth-child(1) {
+    margin-left: 2.3rem;
+}
+
+div:nth-child(2) {
+    position: relative;
+    width: 900px;
+}

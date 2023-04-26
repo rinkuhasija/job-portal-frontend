@@ -1,0 +1,25 @@
+.loginRightImg {
+    background-image: url(../../../assets/Login-img.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px ;
+}
+
+span {
+    margin-top: -75vh;
+    width: 465px;
+    height: 58px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #fff;
+}
