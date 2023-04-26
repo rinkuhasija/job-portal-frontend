@@ -25,7 +25,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<LoginForm onLogin={handleLogin} />} />
-          <Route path='/register' element={<Register />} />
+          <Route path='/' element={<Register />} />
           <Route path='/home' element={login ? <LoginRightImg /> : <ErrorPage />} />
         </Routes>
       </BrowserRouter>
