@@ -1,0 +1,131 @@
+.addJob {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.addJobForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto auto;
+    margin-left: 6vw !important;
+}
+
+#heading {
+    margin-bottom: 1rem;
+    height: 58px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #000000;
+}
+
+label {
+    width: 174px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+input {
+    margin: 6px;
+    margin-left: 1rem;
+    width: 300px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 10px;
+    color: #525252;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+#addJobBtn {
+    margin-left: -5px;
+    width: 155px;
+    height: 39px;
+    background: #ED5353;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#addJobBtn>span {
+    width: 88px;
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#cancelBtn {
+    box-sizing: border-box;
+    width: 155px;
+    height: 39px;
+    background: #fffcfc;
+    border: 0.848485px solid #CECECE;
+    cursor: pointer;
+    border-radius: 6.50784px;
+}
+
+#cancelBtn>span {
+    width: 56px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.0773px;
+    line-height: 21px;
+    color: #C2C2C2;
+}
+
+
+.rightImg {
+    margin-left: 10rem;
+    background-image: url(../../../assets/addjob-img.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    min-height: 100vh;
+}
+
+span {
+    margin-top: -75vh;
+    width: 600px;
+    height: 58px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #fff;
+}

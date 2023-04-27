@@ -32,6 +32,8 @@ function LoginForm(props) {
                 setEmail("");
                 setPassword("");
                 alert(`Hello ${email.slice(0, (email.length-10))} . You are successfully Logged in`)
+                const token = resJson;
+                localStorage.setItem("token", token)
                 // handleLogin(true);
                 //redirect to home
                 // window.location.href = "/home";
