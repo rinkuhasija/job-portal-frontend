@@ -1,0 +1,28 @@
+.navBar {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    background: url(../../../assets/Rectangle1.png);
+
+    width: 93vw;
+    height: 100px;
+    border-radius: 0px 0px 62px 55px;
+}
+
+.navBar>h2 {
+    margin-top: 1.5rem;
+    /* width: 140px; */
+    height: 43px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.navBar > button {
+    margin-top: 1.5rem;
+}

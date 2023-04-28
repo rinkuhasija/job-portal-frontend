@@ -41,8 +41,9 @@ function AddJob() {
                         token: token
                     }),
                 });
-                let resJson = await res.json();
-                // console.log(resJson);
+                let resJson = JSON.stringify(res.body);
+                console.log(resJson);
+                // console.log(resJson.status);
                 if (resJson.status === "success") {
                     alert("JOb posted");
                 } 

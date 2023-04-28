@@ -1,0 +1,128 @@
+/* parent container */
+.jobCard {
+    margin: 15px;
+    padding: 3x;
+    margin-left: 3rem !important;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 85vw;
+    height: 16vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 22px 2px rgba(255, 32, 32, 0.25);
+}
+
+.jobCard:hover {
+    border-left: 5px solid #FF0000;
+}
+
+/* 1st child */
+.companyImg {
+    margin-top: 2rem;
+}
+
+/* 2st child */
+.jobData {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.2rem;
+    width: 42vw !important;
+}
+
+.jobData>h3 {
+    padding-left: 3rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 144.02%;
+    color: #000000;
+    margin: 0;
+}
+
+/* 3rd child */
+.skills {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    width: 27vw;
+}
+
+/* inside 3rd child */
+#tags {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 3px;
+    margin: 6px;
+}
+
+pre {
+    padding: 7px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    margin-top: 8px;
+    width: 75px;
+    height: 32.97px;
+    background: #FFEEEE;
+    border-radius: 2px;
+}
+
+/* inside 2nd child */
+
+#flex1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    width: 38vw;
+}
+
+/* #flex1 > p {
+    width: vw;
+} */
+
+.flex2 {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    width: 20vw;
+}
+
+.flex2>p {
+    /* width: 40px;
+    height: 13px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0987px;
+    line-height: 89.19%;
+    color: #ED5353;
+}
+
+.skills>button {
+    margin-top: 10px;
+    margin-left: 10vw;
+    width: 140px;
+    height: 35px;
+    background: #ED5353;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button>span {
+    width: 88px;
+    height: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 144.02%;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -8,6 +8,8 @@ import Login from './components/pages/Login/Login'
 import Register from './components/pages/Register/Register'
 import ErrorPage from './components/pages/ErrorPage/ErrorPage'
 import AddJob from './components/pages/AddJob/AddJob';
+import JobCard from './components/layout/JobCard/JobCard';
+import AllJobsPage from './components/pages/AllJobsPage/AllJobsPage';
 
 function App() {
 
@@ -29,6 +31,7 @@ function App() {
           <Route path='/' element={<Register />} />
           <Route path='/home' element={login ? <LoginRightImg /> : <ErrorPage />} />
           <Route path='/addJob' element={<AddJob />} />
+          <Route path='/jobs' element={<AllJobsPage />} />
         </Routes>
       </BrowserRouter>
     </>
