@@ -1,5 +1,5 @@
 import styles from './loginForm.module.css'
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import { useState } from 'react';
 
 function LoginForm(props) {
@@ -37,6 +37,7 @@ function LoginForm(props) {
                 // handleLogin(true);
                 //redirect to home
                 // window.location.href = "/home";
+                Navigate("/home")
                 // console.log(resJson);
             } else {
                 console.log("Error occurred");
@@ -65,6 +66,7 @@ function LoginForm(props) {
                     <button onClick={handleSubmit}>  <span> Sign in </span> </button>
                     <p>Don't have an account? <Link to='/register'>Sign Up </Link> </p>
                     <Link to={"/home"}>Home</Link>
+                    <Link to={"/addjob"}>AddJob</Link>
                 </div>
             </div >
         </>
