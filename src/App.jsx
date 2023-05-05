@@ -10,6 +10,7 @@ import ErrorPage from './components/pages/ErrorPage/ErrorPage'
 import AddJob from './components/pages/AddJob/AddJob';
 import JobCard from './components/layout/JobCard/JobCard';
 import AllJobsPage from './components/pages/AllJobsPage/AllJobsPage';
+import JobDetails from './components/pages/JobDetails/JobDetails';
 
 function App() {
 
@@ -28,10 +29,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<LoginForm onLogin={handleLogin} />} />
-          <Route path='/' element={<Register />} />
+          <Route path='/register' element={<Register />} />
           <Route path='/home' element={login ? <LoginRightImg /> : <ErrorPage />} />
           <Route path='/addJob' element={<AddJob />} />
-          <Route path='/jobs' element={<AllJobsPage />} />
+          <Route path='/' element={<AllJobsPage />} />
+          <Route path='/jobdetail' element={<JobDetails/>} />
         </Routes>
       </BrowserRouter>
     </>

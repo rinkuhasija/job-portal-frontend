@@ -7,7 +7,7 @@ function LoginRightImg() {
             <div className={styles.loginRightImg}>
                 <span> Your Personal Job Finder </span>
             </div>
-            <Link to={"/login"}>Login</Link>
+            
         </>
     )
 }

@@ -1,3 +1,9 @@
+.containerLoginForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .loginForm {
     display: flex;
     flex-direction: column;

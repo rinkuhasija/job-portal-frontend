@@ -3,7 +3,7 @@ import logo_url from '../../../assets/first-job-img.png'
 import userSvg from '../../../assets/user.png'
 import india from '../../../assets/india.png'
 
-function JobCard() {
+function JobCard({job_position}) {
 
     const data = {
         job_title: 'Software Engineer',
@@ -23,7 +23,7 @@ function JobCard() {
 
             <div className={styles.jobData}>
 
-                <h3>{data.job_title}</h3>
+                <h3>{job_position}</h3>
 
                 <div id={styles.flex1}>
 

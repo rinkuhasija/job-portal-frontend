@@ -58,13 +58,15 @@ function RegisterForm() {
 
                         <input type="text" name='name' value={firstName} placeholder='FirstName' id={styles.name} onChange={(e) => setFirstName(e.target.value)} /> <br />
                         <input type="text" name='lastName' value={lastName} placeholder='LastName' id={styles.mobile} onChange={(e) => setLastName(e.target.value)} /> <br />
-                        <input type="email" name='email' value={email} placeholder='Email' id={styles.email} onChange={(e) => setEmail(e.target.value)}/> <br />
+                        <input type="email" name='email' value={email} placeholder='Email' id={styles.email} onChange={(e) => setEmail(e.target.value)} /> <br />
                         <input type="password" name='password' value={password} placeholder='Password' id={styles.password} onChange={(e) => setPassword(e.target.value)} />
 
                     </form> <br />
 
-                    <input type="checkbox" name='checkbox' id={styles.checkbox} />
-                    <label htmlFor='checkbox' id={styles.label}> By creating an account, you agree to our terms of use and privacy policy </label> <br /> <br />
+                    <div className={styles.checkboxDiv}>
+                        <input type="checkbox" name='checkbox' id={styles.checkbox} />
+                        <label htmlFor='checkbox' id={styles.label}> By creating an account, you agree to our terms of use and privacy policy </label> <br /> <br />
+                    </div>
 
                     <button onClick={handleSubmit}>  <span> Create Account </span> </button>
                     <p>Already have an account? <Link to='/login'>Sign In</Link> </p>

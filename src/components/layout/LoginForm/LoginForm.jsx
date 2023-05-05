@@ -1,8 +1,12 @@
 import styles from './loginForm.module.css'
 import { Link, Navigate } from 'react-router-dom'
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+import LoginRightImg from '../LoginRightImg/LoginRightImg';
 
 function LoginForm(props) {
+
+    const navigate = useNavigate();
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -37,7 +41,9 @@ function LoginForm(props) {
                 // handleLogin(true);
                 //redirect to home
                 // window.location.href = "/home";
-                Navigate("/home")
+
+                navigate("/");
+                
                 // console.log(resJson);
             } else {
                 console.log("Error occurred");
@@ -50,7 +56,7 @@ function LoginForm(props) {
 
 
     return (
-        <>
+        <div className={styles.containerLoginForm}>
             <div className={styles.loginForm}>
                 <div className={styles.formContainer}>
 
@@ -65,11 +71,13 @@ function LoginForm(props) {
 
                     <button onClick={handleSubmit}>  <span> Sign in </span> </button>
                     <p>Don't have an account? <Link to='/register'>Sign Up </Link> </p>
-                    <Link to={"/home"}>Home</Link>
+                    <Link to={"/home"}>Home</Link> <br />
                     <Link to={"/addjob"}>AddJob</Link>
                 </div>
             </div >
-        </>
+
+            <LoginRightImg />
+        </div>
     )
 }
 

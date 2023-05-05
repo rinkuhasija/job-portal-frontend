@@ -55,8 +55,9 @@ p {
 }
 
 #label {
-    margin-left: 5px;
-    width: 563px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 360px;
     height: 24px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -67,7 +68,9 @@ p {
 }
 
 #checkbox {
-    margin-left: -3px;
+    margin-left: 2.5rem;
+    width: 20px;
+    height: 20px;
 }
 
 button {
@@ -104,5 +107,10 @@ a {
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
+}
+
+.checkboxDiv {
+    margin-left: -3rem;
+
 }
 
